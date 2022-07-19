@@ -1,0 +1,65 @@
+body{
+    display: flex;
+    background: linear-gradient(180deg, #360033, #0b8793);
+    background-size: 200% 200%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+#uViewPanel{
+    margin-top: 14em;
+    padding-bottom: 2em;
+    padding-top: 3em;
+    width: 1500px;
+    /* height: 900px; */
+    background-color: white;
+    border-radius: 15px;
+    opacity: 85%;
+}
+.h1{
+margin-bottom: 2em;
+}
+.h2{
+    margin-top: -1em;
+}
+.tHead{
+    background-color: black;
+    color: white;
+}
+#bt{
+    position: relative;
+    margin-top: -9.4em;
+    margin-left: 33.3em;
+    height: 3.5rem;
+    width: 20rem;
+    border-style:none;
+    border-radius: 60px;
+    background-color: #360033;
+    transition: 0.5s all ease;
+    outline: none;
+    z-index: 1;
+    font-size: x-large;
+    font-weight: bold;
+    color: white;
+}
+#bt:before{
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    right:50%;
+    bottom: 0;
+    opacity: 0;
+    content: "";
+    background-color: #0b8793;
+    border-radius: 60px;
+  }
+  #bt:hover:before{
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    z-index: -1;
+  }

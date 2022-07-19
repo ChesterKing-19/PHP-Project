@@ -1,0 +1,142 @@
+body{
+    display: flex;
+    background: linear-gradient(180deg, #360033, #0b8793);
+    background-size: 100% 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+#LoginPanel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+
+    margin-top: 4em;
+    width: 750px;
+    height: 800px;
+    background-color: white;
+    border-radius: 15px;
+    opacity: 85%;
+}
+#Panel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+
+    margin-top: 4em;
+    width: 750px;
+    height: 1200px;
+    background-color: white;
+    border-radius: 15px;
+    opacity: 85%;
+    
+}
+#namevalid{
+    margin-top: 5px;
+    color: red;
+}
+#head{
+    margin-top: 1em;
+    margin-bottom: .5em;
+    font-size: 4.4em;
+    font-family: 'Arial', Times, serif;
+    font-weight:bolder;
+}
+div{
+    margin: 2em;
+}
+#un,#eml,#ph,#p1,#p2,#s1{
+    font-family: 'Arial', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+#bt{
+    position: relative;
+    margin-top: 4.35em;
+    margin-left: 3.2em;
+    height: 4rem;
+    width:25rem;
+    border-style:none;
+    border-radius: 60px;
+    background-color: #360033;
+    transition: 0.5s all ease;
+    outline: none;
+    z-index: 1;
+    font-size: x-large;
+    font-weight: bold;
+    color: white;
+  }
+#bt:before{
+  transition: 0.5s all ease;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  right:50%;
+  bottom: 0;
+  opacity: 0;
+  content: "";
+  background-color: #0b8793;
+  border-radius: 60px;
+}
+#bt:hover:before{
+  transition: 0.5s all ease;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  z-index: -1;
+}
+#username,#email,#phone,#pass,#C_pass,#select{
+    border-style:solid;
+    border-width: 1px;
+    border-radius: 5px;
+    height: 2.2em;
+    width: 30em;
+    padding-left: 1em;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: -10px;
+}
+#log{
+    font-size: larger;
+    margin-top: 2px;
+}
+#bt:hover{
+    cursor: pointer;
+}
+.cBody{
+    display: flex;
+    background: linear-gradient(180deg, #360033, #0b8793);
+    background-size: 200% 200%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+
+}
+#uViewPanel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+
+    margin-top: 4em;
+    width: 1200px;
+    height: 700px;
+    background-color: white;
+    border-radius: 15px;
+    opacity: 85%;
+}
+#uH1{
+    position:relative;
+    top: 10%;
+    right: 25%;
+    font-size: 3em;
+    font-family: 'Arial', Times, serif;
+    font-weight:bolder;
+}
+#myTable{
+   margin-top: 10em;
+}
